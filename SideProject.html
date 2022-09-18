@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width", initial="scale=1.0">
+            <title>SIDEHUSTLE ASSIGNMENT</title>
+            <style>
+             body{
+                background-color: azure;
+             }
+              #flex{
+                display: inline;
+                padding-top: 40px;
+                margin-top: 40px;
+                width: 50%;
+                position: absolute;
+                top: 0;
+                right: -10px;
+                 }
+                  .box{
+                width: 600px;
+                height: 30px;
+                }
+               img{display: inline;
+                width: 50%;
+                 height: 500px;}
+                 #button:hover{
+                    background-color: blue;
+                    color:aqua
+
+                 }
+                 input[type=text]:focus{
+                    background-color: blue;
+                 }
+                 h1{
+                    text-align: center;
+                    color: green;
+                    font-family: 'Quicksand', Times, serif;
+                    font-weight: 800;
+                 }
+                 #legend{
+                    color: green;
+                    font-size: 20px;
+                    font-weight: 500;
+                 }
+
+               
+               
+            </style>
+        </head>
+        <body>
+            <h1> SIMPLE REGISTRATION FORM FOR SIDEHUSTLE ASSIGNMENT</h1>
+            <div id="img">
+                <img src="pexels-tima-miroshnichenko-5698417.jpg">
+
+            </div>
+             <div id="flex">
+
+                <form action="action-page.php" method="POST">
+                    <legend id="legend">
+                        Registration Form for signing up for 
+                        our digital skills,let get 
+                        you registered now,<br>never wait
+                         for tomorrow to get things started</legend><br>
+                   First-Name <br>
+                  
+                   <input type="text" name="firstname" class="box"><br>
+                   Email<br>
+                   <input type="email" name="email" class="box" required><br>
+                   Last-Name <br>
+                   <input type="text" name="lastname" class="box"><br>
+                   Date-of-birth<br>
+                   <input type="date" name="bday" min="1990-2-2" class="box"><br>
+                   Phone-Number<br>
+                   <input type="tel" name="phone number" class="box"><br>
+                   Password<br>
+                   <input type="password" name="password" maxlength="12" class="box"><br>
+                   Confirm-Password<br>
+                   <input type="password" name="confirm password" class="box" required><br><br>
+                   <input type="submit" value="SUBMIT NOW" id="button" >
+                </form>
+
+            </div>
+           
+            
+        </body>
+
+    </html>
